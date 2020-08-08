@@ -140,6 +140,7 @@ if not DEBUG:
     import django_heroku #追加
     django_heroku.settings(locals()) #追加
 
+
 #ホワイトノイズ設定
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
