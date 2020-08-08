@@ -133,7 +133,6 @@ try:
 except ImportError:
     pass
 
-STATIC_URL = "/static/"
 
 if not DEBUG:
     SECRET_KEY = os.environ['SECRET_KEY']
